@@ -5,12 +5,12 @@
     "node": ">=16"
   },
   "scripts": {
-    "dev": "vite --root my-app",
+    "dev": "vite my-app",
     "my-app:dev": "cd my-app && npm install && npm run dev",
-    "my-app:build": "vite build --root my-app",
-    "my-app:preview": "vite preview --root my-app",
-    "build": "vite build --root my-app",
-    "preview": "vite preview --root my-app"
+    "my-app:build": "vite build my-app",
+    "my-app:preview": "vite preview my-app",
+    "build": "vite build my-app",
+    "preview": "vite preview my-app"
   },
   "dependencies": {
     "vite": "^7.2.6",
