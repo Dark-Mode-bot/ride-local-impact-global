@@ -1,39 +1,38 @@
-# 🚴‍♂️ Ride Local, Impact Global
+git clone https://github.com/YOUR_USERNAME/ride-local-impact-global.git
 
-**Tagline:** Empowering Utah's riders, one e-bike at a time.
+# Ride Local, Impact Global
 
-## 🌟 Mission
+## Quick Start
 
-A Utah-focused e-bike community platform that promotes sustainable transportation, supports local businesses, and reinvests profits into SLCC scholarships.
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run the Vite React app
+```bash
+npm run my-app:dev
+```
+
+### Build for production
+```bash
+npm run my-app:build
+```
+
+### Preview production build
+```bash
+npm run my-app:preview
+```
 
 ---
 
-## 🚀 Quick Start
+This repo uses a single root `package.json` and lockfile. The Vite React app source is in `my-app/`.
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- Git
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/ride-local-impact-global.git
-cd ride-local-impact-global
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
+---
 
 ---
 
