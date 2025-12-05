@@ -5,14 +5,14 @@
     "node": ">=16"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --root my-app",
     "my-app:dev": "cd my-app && npm install && npm run dev",
-    "my-app:build": "cd my-app && npm install && npm run build",
-    "my-app:preview": "cd my-app && npm install && npm run preview",
-    "build": "vite build",
-    "preview": "vite preview"
+    "my-app:build": "vite build --root my-app",
+    "my-app:preview": "vite preview --root my-app",
+    "build": "vite build --root my-app",
+    "preview": "vite preview --root my-app"
   },
-  "devDependencies": {
+  "dependencies": {
     "vite": "^7.2.6"
   }
 }
