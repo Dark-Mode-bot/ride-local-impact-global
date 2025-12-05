@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "my-app:dev": "cd my-app && npm install && npm run dev",
+    "my-app:build": "cd my-app && npm install && npm run build",
+    "my-app:preview": "cd my-app && npm install && npm run preview",
     "build": "vite build",
     "preview": "vite preview"
   },
